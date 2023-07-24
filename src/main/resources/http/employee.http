@@ -1,0 +1,29 @@
+###
+GET http://localhost:9090/employee/info/2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODc0MTA5MzQsImVtYWlsIjoiSmFzdXJvdkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9NT0RFUkFUT1IiLCJleHAiOjE2ODc0OTczMzQsImlzcyI6InlvdXR1YmUgdGVzdCBwb3J0YWwifQ.qNoKc4M6aK105mo2yY00OPplqYezciOr3eBzdtZiuEClfFk-m-l2z1aqz7VbSV_W7PD79LQvcLw5ttNLUXA0-g
+
+###
+###
+PUT http://localhost:9090/employee/edite/info/2
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODc0MTA4NzYsImVtYWlsIjoic2hvYm90ZXlldkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4NzQ5NzI3NiwiaXNzIjoieW91dHViZSB0ZXN0IHBvcnRhbCJ9.Dt_53moj-7lsdCv9GD-Zffh8wAsxFq8IHcGgiYEaNiu9Y5Nql3Yh8QtSEcuMRUvHGaWwhhTABcuhMvNS27E5Gw
+Content-Type: application/json
+
+{
+  "firstName": "Jamshid",
+  "lastname": "Jasurov",
+  "dateOfBirth": "2002-04-14",
+  "gender": "MALE",
+  "maritalStatus": "UNMARRIED",
+  "phoneNumber": "+998932932200",
+  "email": {
+    "email": "Jasurov@gmail.com",
+    "password": "25d55ad283aa400af464c76d713c07ad"
+  },
+  "employmentMode": "PART_TIME",
+  "hireDate": "2023-06-21",
+  "resignationDate": "2023-06-21",
+  "probationPeriod": null,
+  "role": "ROLE_MODERATOR",
+  "salary": null,
+  "reportingManager": 1
+}

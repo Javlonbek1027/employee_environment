@@ -1,0 +1,11 @@
+###
+POST http://localhost:9090/leave/create/own
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODg2MzM4MTgsImVtYWlsIjoic2hvYm90ZXlldkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4ODcyMDIxOCwiaXNzIjoieW91dHViZSB0ZXN0IHBvcnRhbCJ9.Em3jhHI89bLBiIk6eZuOqHuJ5lQQwZyn7EZQ2Mm30rSIk92OaFOs1ofGzs99KVw06-XwbvOGYhXiM-Qt1-t90A
+Content-Type: application/json
+
+{
+  "requestType": "PAID",
+  "fromDate": "2002-04-14",
+  "toDate": "2002-05-14",
+  "requestStatus": "APPROVED"
+}

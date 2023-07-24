@@ -1,0 +1,21 @@
+###
+POST http://localhost:9090/admin/register
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODg5ODUyNzQsImVtYWlsIjoic2hvYm90ZXlldkBnbWFpbC5jb20iLCJyb2xlIjoiUk9MRV9BRE1JTiIsImV4cCI6MTY4OTA3MTY3NCwiaXNzIjoieW91dHViZSB0ZXN0IHBvcnRhbCJ9.ITnPWDLk5FYy04MbHQPrHff1YR5g2OJsL0QeovhSA4u2bZkcaQ-KwYyysLk32E9wRVlhd243yAAXj254kX1W2Q
+Content-Type: application/json
+
+{
+  "firstName": "Ali",
+  "lastname": "Aliyev",
+  "dateOfBirth": "2006-02-06",
+  "gender": "MALE",
+  "maritalStatus": "UNMARRIED",
+  "phoneNumber": "+998935123262",
+  "email": {
+    "email": "Aliyev@gmail.com",
+    "password": "12345678"
+  },
+  "employmentMode": "PART_TIME",
+  "hireDate": "2023-06-21",
+  "resignationDate": "2023-06-21",
+  "role": "ROLE_MODERATOR"
+}

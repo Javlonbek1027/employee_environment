@@ -1,0 +1,25 @@
+package com.IT.environment.dto.leaveRequests;
+
+import com.IT.environment.enums.leaveRequest.LeaveRequestType;
+import com.IT.environment.enums.leaveRequest.RequestStatus;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import java.time.LocalDate;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class LeaveRequestCreateDto {
+
+    private LeaveRequestType requestType;
+
+    private LocalDate fromDate;
+
+    private LocalDate toDate;
+
+    private RequestStatus requestStatus;
+
+}
